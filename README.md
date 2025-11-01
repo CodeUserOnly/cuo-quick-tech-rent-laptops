@@ -1,5 +1,9 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+
+# My Project Preview
+Preview : [Link](https://aquamarine-platypus-dee5e1.netlify.app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
