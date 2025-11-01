@@ -46,7 +46,7 @@ const SupportPage = () => {
         },
         {
           question: "What are your delivery areas?",
-          answer: "We currently deliver to major cities across the United States. During checkout, you can enter your address to check availability in your area."
+          answer: "We currently deliver to major cities across the India. During checkout, you can enter your address to check availability in your area."
         },
         {
           question: "How do I return the laptop?",
@@ -180,7 +180,7 @@ const SupportPage = () => {
               </div>
               <h5>Phone Support</h5>
               <p className="text-muted">Speak directly with our experts</p>
-              <a href="tel:+15551234567" className="btn btn-success">
+              <a href="tel:+919769602148" className="btn btn-success">
                 Call Now
               </a>
             </div>
@@ -194,7 +194,7 @@ const SupportPage = () => {
               </div>
               <h5>Email Support</h5>
               <p className="text-muted">Get detailed responses within hours</p>
-              <a href="mailto:support@quicktechrent.com" className="btn btn-info">
+              <a href="mailto:quicktechrent@gmail.com" className="btn btn-info">
                 Email Us
               </a>
             </div>
@@ -426,7 +426,7 @@ const SupportPage = () => {
                     <i className="fas fa-envelope fa-2x"></i>
                   </div>
                   <h6>Email</h6>
-                  <p className="mb-1">support@quicktechrent.com</p>
+                  <p className="mb-1">quicktechrent@gmail.com</p>
                   <small className="text-muted">Response within 2 hours</small>
                 </div>
                 <div className="col-md-3 text-center mb-3">
@@ -434,7 +434,7 @@ const SupportPage = () => {
                     <i className="fas fa-phone fa-2x"></i>
                   </div>
                   <h6>Phone</h6>
-                  <p className="mb-1">+1 (555) 123-4567</p>
+                  <p className="mb-1">+91 9769602148</p>
                   <small className="text-muted">24/7 available</small>
                 </div>
                 <div className="col-md-3 text-center mb-3">
@@ -442,8 +442,8 @@ const SupportPage = () => {
                     <i className="fas fa-clock fa-2x"></i>
                   </div>
                   <h6>Business Hours</h6>
-                  <p className="mb-1">Mon-Fri: 9AM-6PM EST</p>
-                  <p className="mb-1">Sat: 10AM-4PM EST</p>
+                  <p className="mb-1">Mon-Fri: 9AM-6PM IST</p>
+                  <p className="mb-1">Sat: 10AM-4PM IST</p>
                 </div>
                 <div className="col-md-3 text-center mb-3">
                   <div className="text-warning mb-2">
@@ -451,7 +451,7 @@ const SupportPage = () => {
                   </div>
                   <h6>Address</h6>
                   <p className="mb-1">123 Tech Street</p>
-                  <p className="mb-1">Silicon Valley, CA 94025</p>
+                  <p className="mb-1">Silicon Valley, Mumbai 400042</p>
                 </div>
               </div>
             </div>
@@ -487,7 +487,7 @@ const SupportPage = () => {
                       className={`p-3 rounded ${
                         message.sender === 'user' 
                           ? 'bg-primary text-white' 
-                          : 'bg-light border'
+                          : 'bg-light border text-dark'
                       }`}
                       style={{ maxWidth: '70%' }}
                     >

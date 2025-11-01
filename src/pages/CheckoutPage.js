@@ -214,7 +214,7 @@ const CheckoutPage = ({ cart, user, createOrder, clearCart }) => {
               className="btn btn-primary btn-lg w-100"
               disabled={loading}
             >
-              {loading ? 'Placing Order...' : `Place Order - $${finalTotal.toFixed(2)}`}
+              {loading ? 'Placing Order...' : `Place Order - ₹${finalTotal.toFixed(2)}`}
             </button>
           </form>
         </div>

@@ -31,9 +31,9 @@ const Footer = () => {
           <div className="col-md-3">
             <h5>Contact Info</h5>
             <ul>
-              <li>Email: support@quicktechrent.com</li>
-              <li>Phone: +1 (555) 123-4567</li>
-              <li>Address: 123 Tech Street, Silicon Valley, Mumbai</li>
+              <li>Email: quicktechrent@gmail.com</li>
+              <li>Phone: +91 9769602148</li>
+              <li>Address: 123 Tech Street, Silicon Valley, Mumbai 400042</li>
             </ul>
           </div>
         </div>
