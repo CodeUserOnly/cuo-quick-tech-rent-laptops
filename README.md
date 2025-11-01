@@ -2,7 +2,7 @@
 <<<<<<< HEAD
 
 # My Project Preview
-Preview : [Link](https://aquamarine-platypus-dee5e1.netlify.app/).
+Preview : [Click Here To See My First Project](https://aquamarine-platypus-dee5e1.netlify.app/).
 
 # Getting Started with Create React App
 
