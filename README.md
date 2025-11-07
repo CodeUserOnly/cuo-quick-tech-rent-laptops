@@ -1,83 +1,148 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+# My First Project
 
-# My Project Preview
+# Quick Tech Rent – Laptop Rental Platform
+
+Quick Tech Rent is a full-featured laptop rental web application with **Authentication**, **Shopping Cart**, **Checkout**, and a **role-based Admin Inventory Dashboard** — powered by **React + Supabase**.
+
+
+
+## Live Demo
+
 Preview : [Click Here To See My First Project](https://aquamarine-platypus-dee5e1.netlify.app/).
 
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Major Features
 
-In the project directory, you can run:
+### User Side
+- User Sign Up / Login with Supabase Auth
+- Browse laptops with filters & categories
+- Add to cart + Smooth Shopping Cart experience
+- Checkout page with order summary
+- Personalized User Dashboard with active rentals
+- Support & Help page
+- Fully responsive UI
 
-### `npm start`
+### Admin Side
+- Admin Sign Up / Login (separate credentials)
+- Admin Dashboard for inventory control
+- Add / Edit / Delete laptops
+- Database updates in real-time
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Project Folder Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
 
-### `npm run build`
+git-quick-tech-rent-laptops/
+├── node_modules/
+├── public/
+│   ├── index.html
+│   ├── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── DeviceCard.js
+│   │   ├── ErrorBoundary.js
+│   │   ├── FilterSection.js
+│   │   ├── Footer.js
+│   │   ├── Header.js
+│   ├── pages/
+│   │   ├── AboutPage.js
+│   │   ├── AdminLogin.js
+│   │   ├── AdminPanel.js
+│   │   ├── AdminSignup.js
+│   │   ├── BrowseDevice.js
+│   │   ├── CheckoutPage.js
+│   │   ├── Homepage.js
+│   │   ├── ProductPage.js
+│   │   ├── ShoppingCart.js
+│   │   ├── SupportPage.js
+│   │   ├── UserDashboard.js
+│   │   ├── UserLogin.js
+│   │   ├── UserSignup.js
+│   ├── services/
+│   │   ├── supabase/
+│   │   │   ├── devicesService.js
+│   │   │   ├── index.js
+│   │   │   ├── ordersService.js
+│   │   │   ├── usersService.js
+│   ├── supabase/
+│   │   ├── client.js
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── reportWebVitals.js
+│   ├── setupTests.js
+├── .env
+├── .gitignore
+├── package-lock.json
+├── package.json
+├── README.md
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Category | Technology |
+|---------|------------|
+| Frontend | React, JavaScript, Bootstrap |
+| Backend & Auth | Supabase (PostgreSQL + APIs) |
+| Routing | React Router |
+| Deployment | Netlify |
+| Version Control | GitHub |
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Local Setup Instructions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# 1️ Clone repo
+git clone https://github.com/CodeUserOnly/cuo-quick-tech-rent-laptops-alpha.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd cuo-quick-tech-rent-laptops-alpha
 
-## Learn More
+# 2️ Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 3️ Create .env file
+VITE_SUPABASE_URL=YOUR_SUPABASE_URL
+VITE_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 4️ Run project
+npm run dev
+The app will run on: http://localhost:3000/
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Roadmap (Upcoming Features)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Payment Gateway Integration (Razorpay/Stripe)
+- Admin Order Tracking System
+- Email Notifications (Password reset + confirmations)
+- Multi-device rental support
+- User Profile management
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Pull Requests are welcome.
+Feel free to open issues for suggestions or bugs.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# git-quick-tech-rent-laptops
->>>>>>> 346742bd3f23559c1ae8b4fa4757744ac634f4a4
-=======
-# cuo-quick-tech-rent-laptops
-"My Project No.1"
->>>>>>> 7daff7d0d421a415f6d3a01b89b6d341bad6fccc
+MIT License © 2025 CodeUserOnly
+
+
+
+## Author
+
+CodeUserOnly — Passionate Web Developer
+
