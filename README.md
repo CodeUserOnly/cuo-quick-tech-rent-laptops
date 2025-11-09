@@ -101,9 +101,9 @@ cuo-quick-tech-rent-laptops/
 
 ```bash
 # 1️ Clone repo
-git clone https://github.com/CodeUserOnly/cuo-quick-tech-rent-laptops-alpha.git
+git clone https://github.com/CodeUserOnly/cuo-quick-tech-rent-laptops.git
 
-cd cuo-quick-tech-rent-laptops-alpha
+cd cuo-quick-tech-rent-laptops
 
 # 2️ Install dependencies
 npm install
