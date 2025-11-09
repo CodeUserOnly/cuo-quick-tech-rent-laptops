@@ -35,7 +35,7 @@ Preview : [Click Here To See My First Project](https://aquamarine-platypus-dee5e
 
 ```bash
 
-git-quick-tech-rent-laptops/
+cuo-quick-tech-rent-laptops/
 ├── node_modules/
 ├── public/
 │   ├── index.html
