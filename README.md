@@ -8,7 +8,7 @@ Quick Tech Rent is a full-featured laptop rental web application with **Authenti
 
 ## Live Demo
 
-Preview : [Click Here To See My First Project](https://aquamarine-platypus-dee5e1.netlify.app/).
+Preview : [Click Here To See My First Project](https://qtr-01.netlify.app/).
 
 
 
